@@ -125,7 +125,7 @@ def square_new(name, side):
     }
 ```
 上述实现中，我们将方法存储在一个字典中（Square），方法与类建立了对应关系，每个对象实例包含了对该字典(模拟类)的引用，那么这样一来，方法的调用变成如下图所示：
-![alt text](image.png)
+![alt text](./Python对象和类/image.png)
 `call`函数也需要做一些对应的更新：
 ```python
 def call(thing, method_name):
@@ -300,4 +300,4 @@ Square = {
 
 # 总结
 上述过程只是接触到了Python对象系统的皮毛而已，其他形如：多重继承、类方法、静态方法及猴子补丁等都是强大的工具，但是，这些工具都可以通过包含属性、函数及其他字典引用的一个字典模拟类来理解。
-![alt text](image-1.png)
+![alt text](./Python对象和类/image-1.png)
